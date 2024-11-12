@@ -2,9 +2,8 @@ let container = document.querySelector(".container");
 let btn = document.getElementById("spin");
 
 // Define the probabilities for each segment (total is close to 1)
-let probabilities = [0.2, 0.05, 0.12, 0.15, 0.2, 0.1, 0.15, 0.03];
+let probabilities = [0.3, 0.05, 0.2, 0.1, 0.25, 0.1, 0.07, 0.03]; // Lower probability for Jackpot (last)
 
-// Angles for each segment (assuming 8 equal segments in a 360-degree circle)
 let segmentAngles = [0, 45, 90, 135, 180, 225, 270, 315];
 
 btn.onclick = function () {
